@@ -1,0 +1,5 @@
+# Mac系统文件
+.DS_Store
+
+# VMark编辑器本地数据
+.vmark/
