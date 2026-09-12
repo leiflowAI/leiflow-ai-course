@@ -418,6 +418,10 @@ body,
   letter-spacing: -0.045em;
 }
 
+.warning-sentence {
+  transform: translateY(-70px);
+}
+
 .dim-line {
   color: rgba(255, 255, 255, 0.40);
   text-decoration: line-through;
@@ -516,6 +520,17 @@ body,
 .demo-frame.short {
   height: 120px;
   margin-top: 18px;
+}
+
+.demo-shot {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  border: 1px solid rgba(112, 183, 255, .28);
+  border-radius: 12px;
+  background: #07111d;
 }
 
 .video-stage {

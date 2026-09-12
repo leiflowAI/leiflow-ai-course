@@ -20,11 +20,11 @@ class: cinema cover-slide
   <h1 v-motion :initial="{ opacity: 0, x: -70 }" :enter="{ opacity: 1, x: 0, transition: { duration: 760, delay: 120 } }">从会问<br><span>到会造</span></h1>
   <div v-motion :initial="{ opacity: 0, y: 24 }" :enter="{ opacity: 1, y: 0, transition: { duration: 650, delay: 360 } }" class="cover-subtitle">把 AI 变成你的个人生产系统</div>
   <div class="cover-byline">分享人：于雷</div>
-  <div class="playback-hint">空格 / 右方向键 / 点击画面右侧：逐步播放</div>
 </div>
 
 <!--
 开场先看人，不念标题。
+
 这是内部分享，不是专家授课。我只是先踩了一圈坑，回来汇报路况。
 -->
 
@@ -86,6 +86,10 @@ class: stage light-stage
   <div v-click class="question-row"><span>02</span>怎样让 AI 帮我们生产东西？</div>
   <div v-click class="question-row"><span>03</span>怎样把一次结果变成个人资产？</div>
 </div>
+
+<!--
+
+-->
 
 ---
 class: stage dark-stage
@@ -158,8 +162,6 @@ class: stage dark-stage
     <figcaption>再长出一张概念地图</figcaption>
   </figure>
 </div>
-<div class="demo-cue">现场输入“保险金信托” · 2 MIN · 主演示</div>
-
 <div class="demo-cue">2 MIN · 主演示</div>
 
 ---
@@ -176,7 +178,6 @@ class: stage dark-stage
     <span>2026 World Economic Forum · 官方 YouTube</span>
   </div>
   <a class="video-link" href="https://www.youtube.com/watch?v=K7F6ohcBJus" target="_blank">打开官方视频 ↗</a>
-  <div class="video-time">建议截取约 35—50 秒：从 “zeroth world” 到 “really bad world” · 现场按字幕校准</div>
 </div>
 
 <div v-click class="bottom-punch">而是生产力红利，最后变成能力鸿沟。</div>
@@ -416,8 +417,10 @@ class: stage dark-stage demo-slide
 <h1 class="stage-title">同一个文件<br>换软件，内容还在</h1>
 
 <div class="demo-frame tall">
-  <AssetPlaceholder id="A13" label="课程文件夹 + Markdown + AGENTS.md / SKILL.md" hint="普通文本打开 → VMark / Obsidian 打开 → 解释它是载体，不是 AI 本身" dark />
+  <img class="demo-shot" src="/assets/user-v1/a13-markdown-workbench.png" alt="Markdown 工作台截图">
 </div>
+
+<!-- 原稿提示：第一个概念是 .md。它本质是纯文本文件，却能被人和 AI 同时读懂。打开同一个文件夹，先用普通文本看，再用 VMark 或 Obsidian 看，说明它是载体，不是 AI 本身。 -->
 
 ---
 class: cinema gui-cli-visual
@@ -454,8 +457,10 @@ class: stage dark-stage demo-slide
 </div>
 
 <div class="demo-frame short">
-  <AssetPlaceholder id="A14" label="终端执行前后对比" hint="提前放大字体；隐藏用户名、敏感路径和任何密钥" dark />
+  <img class="demo-shot" src="/assets/user-v1/a14-cli-demo.png" alt="终端执行前后对比">
 </div>
+
+<!-- 原稿提示：CLI 就是命令行。这里不讲命令，只展示列出课程文件、读取一份 Markdown、给出摘要三步。 -->
 
 ---
 class: section-stage dark-stage
@@ -480,8 +485,10 @@ class: statement dark-stage center-stage
 
 <div v-click class="stage-note">它能起草，但不能替你承担发布责任。</div>
 
+<!-- 原稿：为什么要把丑话说在前面？因为如果你全信 AI，那还不如不用 AI。AI 能起草，但不能替你承担发布责任。 -->
+
 ---
-class: stage light-stage
+class: stage light-stage mistake-slide
 ---
 
 <div class="micro-label ink">我自己吃过的亏</div>
@@ -491,6 +498,8 @@ class: stage light-stage
   <div v-click class="mistake-card"><span>视频号</span><b>文案出了问题</b><small>峰叔专业而且眼尖，当场看出来了</small></div>
   <div v-click class="mistake-card hot"><span>公众号</span><b>数字乱用了</b><small>评论和嘲讽可没有“AI 代写”免责条款</small></div>
 </div>
+
+<!-- 原稿：上次和峰叔做视频号，AI 生成的文案里有数据造假，好在峰叔专业而且眼尖，一眼看出了问题。最近还有一篇公众号乱用了数字，引来了不少嘲讽和评论。 -->
 
 ---
 class: cinema visual-left grill-visual
@@ -518,8 +527,10 @@ class: stage dark-stage demo-slide
 <h1 class="stage-title">故意埋一个错<br>看它能不能揪出来</h1>
 
 <div class="demo-frame tall">
-  <AssetPlaceholder id="A15" label="Grill 成功找错 / 未找错两组结果" hint="发现了，是能力；没发现，也说明不能只靠自检" dark />
+  <img class="demo-shot" src="/assets/user-v1/a15-grill-before-after.png" alt="Grill 找错前后对比">
 </div>
+
+<!-- 原稿提示：AI 给出结果后，一定要追问：你的假设是什么？有没有遗漏条件？证据在哪里？重要内容要核查、验证，最后由人做质检。 -->
 
 ---
 class: stage light-stage
@@ -575,8 +586,10 @@ class: stage dark-stage demo-slide
 </div>
 
 <div class="demo-frame short">
-  <AssetPlaceholder id="A16" label="GitHub 仓库与版本对比" hint="公开可见不等于可以随便商用；使用前看许可证" dark />
+  <img class="demo-shot" src="/assets/user-v1/a16-git-history.png" alt="GitHub 仓库与版本对比">
 </div>
+
+<!-- 原稿提示：Git 是版本管理机制，能知道改了什么，也能回到过去。演示项目文件、提交历史和前后对比三个位置即可。 -->
 
 ---
 class: stage light-stage cycle-slide
@@ -606,14 +619,16 @@ class: stage dark-stage
 
 <div class="case-grid">
   <div v-click class="case-with-thumb"><img src="/assets/user-v1/a17-stock-framework.png" alt="港股研究框架"><b>股票研究</b><span>整理公开信息，不保证收益</span><small>A17 · 仅作研究框架示例</small></div>
-  <div v-click><b>公众号 / 视频号</b><span>训练表达，积累内容资产</span><small>A18 · 待补图</small></div>
-  <div v-click><b>个人网站</b><span>建立自己的数字根据地</span><small>A19 · 待补图</small></div>
-  <div v-click><b>微信小程序</b><span>解决身边一个小问题</span><small>A24 · 待补图</small></div>
+  <div v-click class="case-with-thumb"><img src="/assets/user-v1/a18-wechat-stats.png" alt="公众号数据截图"><b>公众号 / 视频号</b><span>训练表达，积累内容资产</span><small>A18</small></div>
+  <div v-click class="case-with-thumb"><img src="/assets/user-v1/a19-website-home.png" alt="个人网站首页"><b>个人网站</b><span>建立自己的数字根据地</span><small>A19</small></div>
+  <div v-click class="case-with-thumb"><img src="/assets/user-v1/a24-mini-programs.png" alt="微信小程序集合"><b>微信小程序</b><span>解决身边一个小问题</span><small>A24</small></div>
   <div v-click><b>写小说 / 出书</b><span>先造一套写作引擎</span><small>下一步</small></div>
 </div>
 
+<!-- 原稿：我建议大家做公众号、视频号，不是为了流量，而是为了积累个人数字资产。网站、小程序、股票研究、写作引擎，都是把自己真正天天用的东西做出来。 -->
+
 <!--
-备用截图：A17 股票研究框架；A18 内容流程；A19 网站；A24 写作引擎。
+真实素材：A17 股票研究框架；A18 公众号数据；A19 网站首页；A24 小程序集合。
 -->
 
 ---
