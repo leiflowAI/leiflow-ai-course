@@ -10,7 +10,11 @@ defineProps({
 
 <template>
   <div class="asset-placeholder" :class="{ compact, dark }">
-    <div class="asset-id">{{ id }}</div>
+    <div class="frame-corner top-left"></div>
+    <div class="frame-corner top-right"></div>
+    <div class="frame-corner bottom-left"></div>
+    <div class="frame-corner bottom-right"></div>
+    <div class="asset-id">{{ id }} · 待补真图</div>
     <div class="asset-label">{{ label }}</div>
     <div class="asset-hint">{{ hint }}</div>
   </div>
@@ -18,46 +22,49 @@ defineProps({
 
 <style scoped>
 .asset-placeholder {
+  position: relative;
   width: 100%;
   height: 100%;
   min-height: 180px;
-  border: 2px dashed rgba(22, 22, 22, 0.34);
+  border: 1px solid rgba(22, 22, 22, 0.20);
   background:
-    linear-gradient(135deg, rgba(255, 90, 54, 0.08), transparent 42%),
-    rgba(255, 255, 255, 0.34);
+    linear-gradient(135deg, rgba(255, 106, 50, 0.10), transparent 48%),
+    rgba(255, 255, 255, 0.42);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 24px;
-  border-radius: 10px;
+  overflow: hidden;
 }
 
 .asset-placeholder.dark {
-  border-color: rgba(255, 255, 255, 0.38);
-  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.20);
+  background:
+    linear-gradient(135deg, rgba(42, 109, 244, 0.14), transparent 52%),
+    rgba(255, 255, 255, 0.055);
 }
 
 .asset-id {
   color: var(--lf-orange);
-  font-size: 15px;
-  font-weight: 800;
+  font-size: 12px;
+  font-weight: 900;
   letter-spacing: 0.14em;
 }
 
 .asset-label {
-  margin-top: 10px;
-  font-size: 24px;
-  line-height: 1.25;
-  font-weight: 750;
+  margin-top: 12px;
+  font-size: 25px;
+  line-height: 1.20;
+  font-weight: 850;
 }
 
 .asset-hint {
   margin-top: 8px;
-  max-width: 34em;
+  max-width: 36em;
   color: var(--lf-muted);
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -68,7 +75,6 @@ defineProps({
 .compact {
   min-height: 92px;
   padding: 10px;
-  border-radius: 7px;
 }
 
 .compact .asset-id {
@@ -77,10 +83,24 @@ defineProps({
 
 .compact .asset-label {
   margin-top: 4px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .compact .asset-hint {
   display: none;
 }
+
+.frame-corner {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-color: var(--lf-orange);
+  border-style: solid;
+  opacity: .88;
+}
+
+.top-left { left: 9px; top: 9px; border-width: 2px 0 0 2px; }
+.top-right { right: 9px; top: 9px; border-width: 2px 2px 0 0; }
+.bottom-left { left: 9px; bottom: 9px; border-width: 0 0 2px 2px; }
+.bottom-right { right: 9px; bottom: 9px; border-width: 0 2px 2px 0; }
 </style>
