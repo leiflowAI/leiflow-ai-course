@@ -1,0 +1,16 @@
+{
+  "name": "leiflow-ai-course-lesson-01-slides",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base ./",
+    "export:pdf": "slidev export --output dist/leiflow-ai-lesson-01.pdf",
+    "export:pptx": "slidev export --format pptx --output dist/leiflow-ai-lesson-01.pptx"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.19.1",
+    "@slidev/theme-default": "0.25.0",
+    "playwright-chromium": "1.63.0"
+  }
+}
