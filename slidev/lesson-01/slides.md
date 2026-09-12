@@ -148,9 +148,17 @@ class: stage dark-stage
 <div class="micro-label orange">概念 → 地图</div>
 <h1 class="stage-title">先让 AI 帮你<br>搭一张学习地图</h1>
 
-<div class="demo-frame">
-  <AssetPlaceholder id="A01" label="AI 时代学习地图生成器" hint="现场填入“保险金信托”或团队熟悉的真实主题" dark />
+<div class="demo-frame map-compare">
+  <figure>
+    <img src="/assets/user-v1/a01-learning-map-before-after-01.png" alt="学习地图报告总览页">
+    <figcaption>A01 · 从一个问题开始</figcaption>
+  </figure>
+  <figure v-click>
+    <img src="/assets/user-v1/a01-learning-map-before-after-04.png" alt="学习地图概念图页">
+    <figcaption>再长出一张概念地图</figcaption>
+  </figure>
 </div>
+<div class="demo-cue">现场输入“保险金信托” · 2 MIN · 主演示</div>
 
 <div class="demo-cue">2 MIN · 主演示</div>
 
@@ -161,14 +169,21 @@ class: stage dark-stage
 <div class="micro-label orange">第零世界 · Zeroth World</div>
 <h1 class="stage-title">真正需要警惕的<br>不是新名词</h1>
 
-<div class="video-stage">
-  <AssetPlaceholder id="A02" label="WSJ × Dario Amodei 原始访谈" hint="35—50 秒；字幕保留 nightmare / decoupled / a really bad world" dark />
+<div class="video-stage zeroth-video">
+  <img src="/assets/user-v1/a02-zeroth-world.jpg" alt="WSJ 与 Dario Amodei 访谈缩略图">
+  <div class="video-overlay">
+    <b>WSJ × Dario Amodei</b>
+    <span>2026 World Economic Forum · 官方 YouTube</span>
+  </div>
+  <a class="video-link" href="https://www.youtube.com/watch?v=K7F6ohcBJus" target="_blank">打开官方视频 ↗</a>
+  <div class="video-time">建议截取约 35—50 秒：从 “zeroth world” 到 “really bad world” · 现场按字幕校准</div>
 </div>
 
 <div v-click class="bottom-punch">而是生产力红利，最后变成能力鸿沟。</div>
 
 <!--
 明确口头说明：这是情景推演，不是现实统计。
+素材来源：The Wall Street Journal 官方 YouTube，"Watch: Anthropic CEO Dario Amodei From World Economic Forum"（2026-01-20），https://www.youtube.com/watch?v=K7F6ohcBJus 。页面只链接官方原片，不内置下载视频。
 -->
 
 ---
@@ -320,8 +335,16 @@ class: stage dark-stage demo-slide
 <div class="micro-label orange">主演示 · 5—8 分钟</div>
 <h1 class="stage-title">只走一条完整链路</h1>
 
-<div class="demo-frame tall">
-  <AssetPlaceholder id="A03" label="LeiFlow 助手脱敏演示 / 90 秒备用录屏" hint="本周计划 → 推荐名单 → 邀约话头 → 记录结果 → 面谈提醒" dark />
+<div class="demo-frame tall assistant-demo">
+  <div class="assistant-screens">
+    <img src="/assets/user-v1/a03-leiflow-assistant-1.png" alt="LeiFlow 助手首页截图">
+    <img v-click src="/assets/user-v1/a03-leiflow-assistant-2.png" alt="LeiFlow 助手任务结果截图">
+  </div>
+  <div class="assistant-demo-copy">
+    <span class="asset-id">A03 · 现场主演示</span>
+    <b>本周计划 → 推荐名单 → 邀约话头 → 记录结果</b>
+    <small>现场打开 WorkBuddy / LeiFlow；两张截图只作断网备份。</small>
+  </div>
 </div>
 
 <div class="data-todo">待补：使用周数 · 每周节省时间 · 推荐数量 · 实际采用比例</div>
@@ -347,15 +370,15 @@ class: stage dark-stage
 <h1 class="stage-title compact-title">不一定成熟，但都不是练习题</h1>
 
 <div class="asset-wall">
-  <AssetPlaceholder id="A04" label="个人网站" compact dark />
-  <AssetPlaceholder id="A05" label="公众号工作流" compact dark />
-  <AssetPlaceholder id="A06" label="港股研究 Skill" compact dark />
-  <AssetPlaceholder id="A07" label="团险话术生成器" compact dark />
-  <AssetPlaceholder id="A08" label="资产配置工具" compact dark />
-  <AssetPlaceholder id="A09" label="每日打卡工具" compact dark />
-  <AssetPlaceholder id="A10" label="Git 学习手册" compact dark />
-  <AssetPlaceholder id="A11" label="写作训练系统" compact dark />
-  <AssetPlaceholder id="A12" label="与峰叔做的视频" compact dark />
+  <div class="asset-wall-card"><img src="/assets/user-v1/a04-website.png" alt="个人网站"><b>A04 · 个人网站</b></div>
+  <div class="asset-wall-card live"><span class="live-badge">LIVE</span><b>A05 · 公众号工作流</b><small>现场打开 WorkBuddy</small></div>
+  <div class="asset-wall-card live"><span class="live-badge">LIVE</span><b>A06 · 港股研究 Skill</b><small>现场打开研究工具</small></div>
+  <div class="asset-wall-card"><img src="/assets/user-v1/a07-group-insurance.png" alt="团险话术生成器"><b>A07 · 团险话术</b></div>
+  <div class="asset-wall-card"><img src="/assets/user-v1/a08-allocation-tool.png" alt="资产配置工具"><b>A08 · 资产配置</b></div>
+  <div class="asset-wall-card"><img src="/assets/user-v1/a09-checkin.png" alt="每日打卡工具"><b>A09 · 每日打卡</b></div>
+  <div class="asset-wall-card"><img src="/assets/user-v1/a10-git-guide.png" alt="Git 学习手册"><b>A10 · Git 手册</b></div>
+  <div class="asset-wall-card"><img src="/assets/user-v1/a11-writing-system.png" alt="写作训练系统"><b>A11 · 写作训练</b></div>
+  <div class="asset-wall-card live"><span class="live-badge">LIVE</span><b>A12 · 与峰叔做的视频</b><small>现场打开素材文件夹</small></div>
 </div>
 
 ---
@@ -582,7 +605,7 @@ class: stage dark-stage
 <h1 class="stage-title compact-title">AI 不替你负责<br>但可以把你的方法变成系统</h1>
 
 <div class="case-grid">
-  <div v-click><b>股票研究</b><span>整理公开信息，不保证收益</span><small>A17 · 待补图</small></div>
+  <div v-click class="case-with-thumb"><img src="/assets/user-v1/a17-stock-framework.png" alt="港股研究框架"><b>股票研究</b><span>整理公开信息，不保证收益</span><small>A17 · 仅作研究框架示例</small></div>
   <div v-click><b>公众号 / 视频号</b><span>训练表达，积累内容资产</span><small>A18 · 待补图</small></div>
   <div v-click><b>个人网站</b><span>建立自己的数字根据地</span><small>A19 · 待补图</small></div>
   <div v-click><b>微信小程序</b><span>解决身边一个小问题</span><small>A24 · 待补图</small></div>
@@ -640,11 +663,11 @@ class: cinema visual-left
 <div class="photo-bg" style="background-image:url('/assets/visual-v2/intern-keys.png')"></div>
 <div class="photo-scrim"></div>
 
-<div class="visual-copy">
+<div class="visual-copy permission-copy">
   <div class="micro-label orange">最小权限</div>
   <h1>别让实习生开会议室<br>顺手把全家钥匙都给他</h1>
   <p v-click>AI 只需要一份稿，就只给它稿件目录。</p>
-  <div class="asset-tag">A20 · 待补 WorkBuddy 授权截图</div>
+  <div class="asset-tag">A20 · 现场打开 WorkBuddy；截图作断网备份</div>
 </div>
 
 ---
@@ -655,9 +678,9 @@ class: stage dark-stage
 <h1 class="stage-title">每件工具，只给一个职位</h1>
 
 <div class="tool-role-grid">
-  <div v-click><b>Typeless</b><span>把话变成字</span><small>A21</small></div>
-  <div v-click><b>Obsidian</b><span>把材料变成库</span><small>A22</small></div>
-  <div v-click><b>VMark</b><span>把长文写清楚</span><small>A23</small></div>
+  <div v-click class="tool-role-with-image"><img src="/assets/user-v1/a21-typeless.png" alt="Typeless 截图"><b>Typeless</b><span>把话变成字</span><small>A21</small></div>
+  <div v-click class="tool-role-with-image"><img src="/assets/user-v1/a22-obsidian.png" alt="Obsidian 截图"><b>Obsidian</b><span>把材料变成库</span><small>A22</small></div>
+  <div v-click class="tool-role-live"><span class="live-badge">LIVE</span><b>VMark</b><span>把长文写清楚</span><small>A23 · 现场打开</small></div>
   <div v-click class="wide"><b>Codex / Claude Code / WorkBuddy</b><span>把项目真正做出来</span></div>
 </div>
 
