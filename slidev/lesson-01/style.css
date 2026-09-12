@@ -164,6 +164,11 @@ body,
   background: linear-gradient(90deg, rgba(4, 10, 16, 0.98) 0%, rgba(4, 10, 16, 0.90) 39%, rgba(4, 10, 16, 0.36) 67%, rgba(4, 10, 16, 0.08) 100%);
 }
 
+.photo-scrim.top-bottom {
+  background:
+    linear-gradient(180deg, rgba(4, 10, 16, .86) 0%, rgba(4, 10, 16, .12) 27%, rgba(4, 10, 16, .05) 65%, rgba(4, 10, 16, .80) 100%);
+}
+
 .visual-copy {
   position: relative;
   z-index: 3;
@@ -222,6 +227,14 @@ body,
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.08em;
+}
+
+.playback-hint {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.42);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .025em;
 }
 
 /* Opening questions */
@@ -785,6 +798,69 @@ body,
   color: rgba(191, 224, 255, 0.62);
 }
 
+/* GUI / CLI visual cutaway */
+.visual-title {
+  position: absolute;
+  z-index: 4;
+  left: 62px;
+  right: 62px;
+  top: 43px;
+}
+
+.visual-title.centered {
+  text-align: center;
+}
+
+.visual-title h1 {
+  font-size: 48px;
+  line-height: 1.05;
+  text-shadow: 0 3px 26px rgba(0, 0, 0, .65);
+}
+
+.room-caption {
+  position: absolute;
+  z-index: 4;
+  bottom: 73px;
+  width: 38%;
+  padding: 13px 17px;
+  color: white;
+  border-top: 4px solid var(--lf-orange);
+  background: rgba(4, 10, 16, .72);
+  backdrop-filter: blur(8px);
+}
+
+.room-left {
+  left: 7%;
+}
+
+.room-right {
+  right: 7%;
+  border-color: var(--lf-cyan);
+}
+
+.room-caption b {
+  margin-right: 14px;
+  font-size: 29px;
+}
+
+.room-caption span {
+  color: rgba(255, 255, 255, .78);
+  font-size: 15px;
+}
+
+.visual-bottom-line {
+  position: absolute;
+  z-index: 5;
+  left: 62px;
+  right: 62px;
+  bottom: 20px;
+  color: var(--lf-orange-2);
+  font-size: 17px;
+  font-weight: 850;
+  text-align: center;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, .7);
+}
+
 .terminal-steps,
 .github-steps {
   display: grid;
@@ -875,6 +951,18 @@ body,
   font-size: 13px;
   font-weight: 900;
   letter-spacing: .15em;
+}
+
+.grill-prompt {
+  margin-top: 26px;
+  padding: 18px 22px;
+  color: rgba(255, 255, 255, .88);
+  border-left: 6px solid var(--lf-orange);
+  background: rgba(4, 10, 16, .56);
+  font-size: 20px;
+  line-height: 1.55;
+  font-weight: 720;
+  backdrop-filter: blur(7px);
 }
 
 .verify-steps {
@@ -1214,6 +1302,46 @@ body,
   font-size: 25px;
 }
 
+/* Personal production flywheel */
+.flywheel-visual .photo-bg {
+  background-position: center 54%;
+}
+
+.flywheel-label {
+  position: absolute;
+  z-index: 5;
+  min-width: 86px;
+  padding: 8px 12px 9px;
+  color: white;
+  border-left: 4px solid var(--lf-orange);
+  background: rgba(4, 10, 16, .74);
+  backdrop-filter: blur(7px);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, .7);
+}
+
+.flywheel-label b,
+.flywheel-label span {
+  display: block;
+}
+
+.flywheel-label b {
+  color: var(--lf-orange-2);
+  font-size: 27px;
+  line-height: 1;
+}
+
+.flywheel-label span {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, .72);
+  font-size: 12px;
+}
+
+.fly-use { left: 9%; top: 54%; }
+.fly-check { left: 29%; top: 27%; border-color: var(--lf-cyan); }
+.fly-change { right: 29%; top: 27%; }
+.fly-store { right: 9%; top: 54%; border-color: var(--lf-cyan); }
+.fly-reuse { left: 45%; top: 70%; min-width: 108px; }
+
 .action-slide {
   display: flex;
   flex-direction: column;
@@ -1308,4 +1436,17 @@ body,
     animation: none;
     transform: none;
   }
+}
+
+/*
+ * 播放页隐藏 Slidev 的整页跳转工具栏。
+ * 该工具栏的上一页 / 下一页会跳过 v-click；Chrome 翻译还可能把
+ * 其中的 sr-only 提示文字暴露在画面边缘。
+ */
+#slide-container > div:has(nav .slidev-icon-btn) {
+  display: none !important;
+}
+
+.slidev-icon-btn .sr-only {
+  display: none !important;
 }

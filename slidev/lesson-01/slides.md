@@ -20,6 +20,7 @@ class: cinema cover-slide
   <h1 v-motion :initial="{ opacity: 0, x: -70 }" :enter="{ opacity: 1, x: 0, transition: { duration: 760, delay: 120 } }">从会问<br><span>到会造</span></h1>
   <div v-motion :initial="{ opacity: 0, y: 24 }" :enter="{ opacity: 1, y: 0, transition: { duration: 650, delay: 360 } }" class="cover-subtitle">把 AI 变成你的个人生产系统</div>
   <div class="cover-byline">分享人：于雷</div>
+  <div class="playback-hint">空格 / 右方向键 / 点击画面右侧：逐步播放</div>
 </div>
 
 <!--
@@ -396,24 +397,25 @@ class: stage dark-stage demo-slide
 </div>
 
 ---
-class: stage light-stage
+class: cinema gui-cli-visual
 ---
 
-<div class="micro-label ink">GUI × CLI</div>
-<h1 class="stage-title ink">一个像前厅<br>一个像后厨</h1>
+<div class="photo-bg" style="background-image:url('/assets/visual-v3/gui-cli-showroom-workshop.png')"></div>
+<div class="photo-scrim top-bottom"></div>
 
-<div class="gui-cli">
-  <div v-click class="gui-panel">
-    <b>GUI</b>
-    <span>看得见 · 点得到 · 好上手</span>
-  </div>
-  <div v-click class="cli-panel">
-    <b>CLI</b>
-    <span>能连接 · 能批量 · 能自动跑</span>
-  </div>
+<div class="visual-title">
+  <div class="micro-label orange">GUI × CLI</div>
+  <h1>一个像前厅，一个像后厨</h1>
 </div>
 
-<div v-click class="bottom-punch ink">不是谁替代谁，是 AI 终于能进后厨干活。</div>
+<div v-click class="room-caption room-left">
+  <b>GUI</b><span>直观、漂亮，适合点选与展示</span>
+</div>
+<div v-click class="room-caption room-right">
+  <b>CLI</b><span>能连接、能批量，适合让 AI 卷起袖子干活</span>
+</div>
+
+<div v-click class="visual-bottom-line">能聊天的是网友，能一起干活的才是搭档。</div>
 
 ---
 class: stage dark-stage demo-slide
@@ -468,19 +470,22 @@ class: stage light-stage
 </div>
 
 ---
-class: stage dark-stage
+class: cinema visual-left grill-visual
 ---
 
-<div class="micro-label orange">Grill</div>
-<h1 class="stage-title">别急着信<br>让 AI 再审自己一遍</h1>
+<div class="photo-bg" style="background-image:url('/assets/visual-v3/grill-quality-gate.png')"></div>
+<div class="photo-scrim"></div>
 
-<div v-click class="prompt-card">
-  <span>GRILL YOURSELF</span>
-  请检查刚才的回答：哪些地方可能错了？<br>
-  哪些数字需要核实？重要依据在哪里？
+<div class="visual-copy">
+  <div class="micro-label orange">Grill · 盘问与自检</div>
+  <h1>活可以交给机器<br>责任不能外包</h1>
+  <div v-click class="grill-prompt">
+    哪些地方可能错了？<br>
+    哪些数字需要核实？<br>
+    重要依据在哪里？
+  </div>
+  <p v-click>AI 再审一遍。<b>人做最后质检。</b></p>
 </div>
-
-<div v-click class="stage-note">不是魔法口令。只是让它换个角度，再找一次漏洞。</div>
 
 ---
 class: stage dark-stage demo-slide
@@ -686,23 +691,24 @@ class: stage light-stage
 <div class="stage-note ink">第一组负责迈出第一步；第二组负责走得更远、更稳。</div>
 
 ---
-class: statement dark-stage center-stage
+class: cinema flywheel-visual
 ---
 
-<div class="micro-label orange">最后只记五个字</div>
-<div class="five-words">
-  <span v-click>用</span>
-  <i v-click>→</i>
-  <span v-click>验</span>
-  <i v-click>→</i>
-  <span v-click>改</span>
-  <i v-click>→</i>
-  <span v-click>存</span>
-  <i v-click>→</i>
-  <span v-click class="hot">复用</span>
+<div class="photo-bg" style="background-image:url('/assets/visual-v3/production-flywheel.png')"></div>
+<div class="photo-scrim top-bottom"></div>
+
+<div class="visual-title centered">
+  <div class="micro-label orange">个人生产系统飞轮</div>
+  <h1>最后只记五个字</h1>
 </div>
 
-<div v-click class="five-caption">先用起来；验证结果；持续修改；保存下来；下次再用。</div>
+<div v-click class="flywheel-label fly-use"><b>用</b><span>先动手</span></div>
+<div v-click class="flywheel-label fly-check"><b>验</b><span>查结果</span></div>
+<div v-click class="flywheel-label fly-change"><b>改</b><span>再调整</span></div>
+<div v-click class="flywheel-label fly-store"><b>存</b><span>留版本</span></div>
+<div v-click class="flywheel-label fly-reuse"><b>复用</b><span>下一次更快</span></div>
+
+<div v-click class="visual-bottom-line">先用起来；验证结果；持续修改；保存下来；下次再用。</div>
 
 ---
 class: stage light-stage action-slide
