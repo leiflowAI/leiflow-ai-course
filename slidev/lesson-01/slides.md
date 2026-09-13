@@ -294,7 +294,7 @@ class: stage dark-stage
   <a class="video-link" href="https://www.youtube.com/watch?v=K7F6ohcBJus" target="_blank">打开官方视频 ↗</a>
 </div>
 
-<div v-click class="bottom-punch">而是生产力红利，最后变成能力鸿沟。</div>
+<div v-click class="bottom-punch">而是生产红利，最后变成能力鸿沟。</div>
 
 <!--
 【讲者稿｜第 11 页｜最终定稿对应段落 36—39】
@@ -305,7 +305,10 @@ class: stage dark-stage
 他描述的是一个需要避免的噩梦情景：如果 AI 带来的生产力和财富高度集中，未来可能出现一个大约一千万人组成的群体——约七百万人在硅谷，三百万人散布在全球。他们形成自己的高增长经济体，与其他人逐渐脱钩。整个经济增长 10% 时，这一小部分人内部可能像增长了 50%。
 
 阿莫迪说得很清楚：这不是理想国，而是一个非常糟糕、甚至近乎反乌托邦的世界。
+
+我们真正需要警惕的不是新名词，而是生产力红利最后变成能力鸿沟。
 -->
+
 ---
 class: cinema visual-left
 ---
