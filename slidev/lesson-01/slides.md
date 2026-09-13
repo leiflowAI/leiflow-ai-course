@@ -1172,7 +1172,7 @@ class: stage dark-stage
   <div v-click class="case-with-thumb"><img src="/assets/user-v1/a18-wechat-stats.png" alt="公众号数据截图"><b>公众号 / 视频号</b><span>训练表达，积累内容资产</span><small>A18</small></div>
   <div v-click class="case-with-thumb"><img src="/assets/user-v1/a19-website-home.png" alt="个人网站首页"><b>个人网站</b><span>建立自己的数字根据地</span><small>A19</small></div>
   <div v-click class="case-with-thumb"><img src="/assets/user-v1/a24-mini-programs.png" alt="微信小程序集合"><b>微信小程序</b><span>解决身边一个小问题</span><small>A24</small></div>
-  <div v-click><b>写小说 / 出书</b><span>先造一套写作引擎</span><small>下一步</small></div>
+  <a v-click class="asset-wall-card" href="/assets/visual-v3/production-flywheel.png" target="_blank" rel="noopener"><b>写小说 / 出书</b><span>先造一套写作引擎</span><small>点击看生产系统</small></a>
 </div><!--
 真实素材：A17 股票研究框架；A18 公众号数据；A19 网站首页；A24 小程序集合。
 -->
