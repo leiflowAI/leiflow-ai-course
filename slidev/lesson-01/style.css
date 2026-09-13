@@ -681,10 +681,11 @@ body,
 }
 
 .bottom-punch {
-  position: absolute;
-  left: 62px;
-  right: 62px;
-  bottom: 41px;
+  position: relative;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  margin-top: 16px;
   color: var(--lf-orange-2);
   font-size: 24px;
   font-weight: 850;
