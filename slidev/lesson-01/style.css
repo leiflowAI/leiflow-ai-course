@@ -332,58 +332,6 @@ body,
   font-weight: 850;
 }
 
-.discussion-questions {
-  position: absolute;
-  right: 64px;
-  bottom: 46px;
-  z-index: 3;
-  display: grid;
-  gap: 8px;
-  width: 46%;
-  color: var(--lf-ink);
-  font-size: 17px;
-  line-height: 1.28;
-  font-weight: 700;
-  text-align: left;
-}
-
-.discussion-slide .statement-answer {
-  transform: translateY(-90px);
-}
-
-.discussion-slide .discussion-questions {
-  left: 64px;
-  right: 64px;
-  bottom: 34px;
-  width: auto;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  font-size: 14px;
-  line-height: 1.25;
-}
-
-.discussion-slide .discussion-questions div {
-  min-height: 74px;
-  padding: 9px 10px;
-}
-
-.discussion-questions div {
-  display: grid;
-  grid-template-columns: 34px 1fr;
-  align-items: start;
-  gap: 8px;
-  padding: 8px 12px;
-  border-left: 4px solid var(--lf-orange);
-  background: rgba(255, 250, 242, .72);
-}
-
-.discussion-questions span {
-  color: var(--lf-orange);
-  font-size: 14px;
-  font-weight: 900;
-  letter-spacing: .08em;
-}
-
 /* One billion */
 .value-slide {
   display: flex;

@@ -84,7 +84,7 @@ class: stage dark-stage value-slide
 -->
 
 ---
-class: statement paper-stage discussion-slide
+class: statement paper-stage
 transition: slide-up
 ---
 
@@ -93,12 +93,6 @@ transition: slide-up
 
 <div v-click class="statement-turn">按钮会搬家，工具会换代。</div>
 <div v-click class="statement-answer">真正要带走的是：一套工作方式。</div>
-
-<div class="discussion-questions">
-  <div v-click><span>01</span>我们为什么要用 AI？</div>
-  <div v-click><span>02</span>怎样从“让 AI 回答问题”，走到“让 AI 帮我们生产东西”？</div>
-  <div v-click><span>03</span>怎样把一次性的结果，变成可以保存、改进、反复使用的个人资产？</div>
-</div>
 
 <!--
 【讲者稿｜第 4 页｜最终定稿对应段落 12—15】
