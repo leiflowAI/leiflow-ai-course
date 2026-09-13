@@ -100,7 +100,7 @@ transition: slide-up
 
 今天我不是以 AI 专家的身份来给大家上课。真论技术，我还排不上号。我只是比大家早走了半步，多折腾了一阵，也多挨了几顿 AI 的打。
 
-有时候我走得快一点，有时候我也走歪了。但好处是：我愿意把怎么走的、哪里摔的、爬起来以后怎么想的，原原本本讲给大家听。
+有时候我走得快一点，有时候我也走歪了。但好处是：我能够把我是怎么走的、哪里摔的、爬起来以后怎么想的，原原本本讲给大家听。
 
 所以，今天不是专家授课，更像一个先踩坑的人回来汇报路况。
 
@@ -147,6 +147,7 @@ class: stage dark-stage
 
 <!--
 【讲者稿｜第 6 页｜最终定稿对应段落 16—19】
+
 今天一共讲八个概念。我把它们装进三层楼：
 
 - **认知层**：概念、第零世界、能力边界；
@@ -157,6 +158,7 @@ class: stage dark-stage
 
 先把今天最重要的一句话送给大家：
 -->
+
 ---
 class: statement dark-stage center-stage
 ---
@@ -201,7 +203,7 @@ transition: slide-up
 class: stage light-stage
 ---
 
-<div class="micro-label ink">概念</div>
+<div class="micro-label ink concept-label"><span class="concept-index">01</span>概念</div>
 <div class="key-layout">
   <div class="giant-char">钥</div>
   <div>
@@ -249,6 +251,7 @@ class: stage dark-stage
 
 <!--
 【讲者稿｜第 10 页｜最终定稿对应段落 31—35】
+
 过去进入一个陌生领域，我们要找书、找课程、找老师，再一点点拼地图。现在 AI 可以先帮你搭一张毛坯地图，你再带着问题去读、去看、去请教真正专业的人。它不能替代学习，但能让你少在荒地里绕圈。
 
 不过这里有个“先有鸡还是先有蛋”的问题：你得先碰到那个概念，才能问它。我们不知道自己不知道什么，就连问题都编不出来。所以，多听、多看、多交流仍然重要。AI 时代不是不用读书了，而是你读得越多，能递给 AI 的钥匙越多。
@@ -261,11 +264,12 @@ class: stage dark-stage
 >
 > 【备用截图】准备一张输入前、一张生成后的截图。现场网络掉链子时，不要跟网络谈感情，直接切截图。
 -->
+
 ---
 class: stage dark-stage
 ---
 
-<div class="micro-label orange">第零世界 · Zeroth World</div>
+<div class="micro-label orange concept-label"><span class="concept-index">02</span>第零世界 · Zeroth World</div>
 <h1 class="stage-title">真正需要警惕的<br>不是新名词</h1>
 
 <div class="video-stage zeroth-video">
@@ -304,6 +308,7 @@ class: cinema visual-left
 
 <!--
 【讲者稿｜第 12 页｜最终定稿对应段落 40—46】
+
 所以，“第零世界”不是号召大家赶紧挤进一个 AI 精英俱乐部，也不是说现在已经有一千万人过上了这种生活。它是在提醒我们：**AI 像一台能力放大器。它能放大一个人的产出，也可能把人与人之间原本不大的差距，越拉越大。**
 
 过去两个人都不会做网站，差距可能不大；现在一个人借助 AI 一周做出网站，另一个人还在讨论“AI 到底有没有用”，几个月以后，差的就不只是一个网站了。
@@ -320,11 +325,12 @@ class: cinema visual-left
 >
 > 【备用素材】准备原文截图，角落标注：“情景推演，不是现实统计。”
 -->
+
 ---
 class: stage light-stage
 ---
 
-<div class="micro-label ink">能力边界</div>
+<div class="micro-label ink concept-label"><span class="concept-index">03</span>能力边界</div>
 <h1 class="stage-title ink">用完 AI 以后<br>你会不会做更多事了？</h1>
 
 <div class="boundary-grid">
@@ -345,7 +351,9 @@ class: stage light-stage
 【讲者稿｜第 13 页｜最终定稿对应段落 47—57】
 ### 3. 能力边界：别把活干完了，把自己也干没了
 
-第三个概念是“边界”。每个人都有自己的认知边界和能力边界：知道什么、能做什么、不会什么，甚至不知道自己不知道什么。
+第三个概念是“边界”。
+
+每个人都有自己的认知边界和能力边界：知道什么、能做什么、不会什么，甚至不知道自己不知道什么。
 
 很多人第一次用 AI，是把自己会做的事情交给它：帮我写段话、总结文章、做张图。没问题，省时间也是价值。
 
@@ -369,6 +377,7 @@ class: stage light-stage
 1. 我有没有获得过去没有的新能力？
 2. 我有没有把这次经验留给下一次？
 -->
+
 ---
 class: stage dark-stage data-stage
 ---
@@ -395,12 +404,14 @@ class: stage dark-stage data-stage
 
 <!--
 【讲者稿｜第 14 页｜最终定稿对应段落 58—60】
+
 研究也说明，AI 的效果不是整齐划一的。一项涉及 5,179 名客服人员的研究发现，AI 使平均生产率提高约 14%，对新手和低技能员工的帮助约为 34%；另一项知识工作实验发现，在适合 AI 的任务里，人做得更快、质量更高，但一旦超出 AI 的能力边界，使用 AI 的人反而更容易得到错误答案。
 
 说白了，AI 的能力不像一堵整齐的墙，而像狗啃过的篱笆：这里高，那里低。它有的题像博士，有的题像喝多了还特别自信的博士。
 
 > 【PPT 数据页】左侧“客服：平均 +14%，新手 +34%”；右侧“边界内：更快更好；边界外：更容易出错”。页脚标明研究对象，别把一组研究讲成宇宙真理。
 -->
+
 ---
 class: cinema visual-left
 ---
@@ -416,12 +427,17 @@ class: cinema visual-left
 
 <!--
 【讲者稿｜第 15 页｜最终定稿对应段落 58—60】
+
 研究也说明，AI 的效果不是整齐划一的。一项涉及 5,179 名客服人员的研究发现，AI 使平均生产率提高约 14%，对新手和低技能员工的帮助约为 34%；另一项知识工作实验发现，在适合 AI 的任务里，人做得更快、质量更高，但一旦超出 AI 的能力边界，使用 AI 的人反而更容易得到错误答案。
 
 说白了，AI 的能力不像一堵整齐的墙，而像狗啃过的篱笆：这里高，那里低。它有的题像博士，有的题像喝多了还特别自信的博士。
 
-> 【PPT 数据页】左侧“客服：平均 +14%，新手 +34%”；右侧“边界内：更快更好；边界外：更容易出错”。页脚标明研究对象，别把一组研究讲成宇宙真理。
+> 【小结】
+> 小结一下，认知层我们讲了三个概念，概念、第零世界和能力边界。目的是想让大家换换脑子，转变转变观念。一是 AI 时代概念很重要，在某种程度上讲，有了 AI ，概念就是认知；二是 AI 提升的是生产效率，我们不能仅仅是观望，而是一定要躬身入局；三是应用 AI 的正确姿势不是“能力卸载”，而是“扩展边界”。
+
+好的，接着我们进入下一层，行动层，继续讲三个概念。
 -->
+
 ---
 class: section-stage dark-stage
 transition: slide-up
@@ -446,13 +462,14 @@ class: cinema visual-left
 <div class="photo-scrim"></div>
 
 <div class="visual-copy">
-  <div class="micro-label orange">从聊天到生产</div>
+  <div class="micro-label orange concept-label"><span class="concept-index">04</span>从聊天到生产</div>
   <h1>AI 可以陪你聊<br>但不会替你搬家</h1>
   <p v-click>想法不落地，聊一万轮也只是聊天记录。</p>
 </div>
 
 <!--
 【讲者稿｜第 17 页｜最终定稿对应段落 63—68】
+
 我们以前都用 AI 做过什么？问问题、写文案、做图片、做视频，对吧？这些当然都算。
 
 但很多时候，我们和 AI 聊得热火朝天，关掉窗口以后，电脑里什么也没有，工作也没有发生变化。那感觉很像认识了一个特别能聊的网友：天天给你提供情绪价值，就是没来帮你搬过一次家。
@@ -465,6 +482,7 @@ class: cinema visual-left
 
 李笑来常讲“学—练—用—造”。学了不用，知识只是脑子里的库存；用了不造，每次还得从头再来。真正的跃迁，是把自己的经验造进一个东西里，让它下一次继续替你工作。
 -->
+
 ---
 class: cinema visual-left
 ---
@@ -480,12 +498,14 @@ class: cinema visual-left
 
 <!--
 【讲者稿｜第 18 页｜最终定稿对应段落 69—71】
+
 那应该造什么？别一上来就想造航空母舰。先找一颗每天扎你三次的钉子，给自己造一把锤子。
 
 我的答案就一句：
 
 > **做你自己真正天天用的东西。**
 -->
+
 ---
 class: stage light-stage
 ---
@@ -502,18 +522,16 @@ class: stage light-stage
 
 <!--
 【讲者稿｜第 19 页｜最终定稿对应段落 66—71】
-这个词听起来很大，像要买地、盖厂房、上流水线。其实对普通人来说，生产制造就是：把一个真实问题，变成一个可以反复使用的东西。
+
+所以，对于普通人来说，生产制造就是：把一个真实问题，变成一个可以反复使用的东西。
 
 它可以是一套模板、一张清单、一份知识库、一条自动化流程、一个网页、一个小工具，甚至一个小程序。
 
-李笑来常讲“学—练—用—造”。学了不用，知识只是脑子里的库存；用了不造，每次还得从头再来。真正的跃迁，是把自己的经验造进一个东西里，让它下一次继续替你工作。
-
-那应该造什么？别一上来就想造航空母舰。先找一颗每天扎你三次的钉子，给自己造一把锤子。
-
-我的答案就一句：
+总结成一句话：
 
 > **做你自己真正天天用的东西。**
 -->
+
 ---
 class: stage dark-stage
 ---
@@ -570,6 +588,7 @@ class: stage dark-stage demo-slide
 
 <!--
 【讲者稿｜第 21 页｜最终定稿对应段落 77—80】
+ 
 这就是我理解的生产制造：不再一遍遍问 AI“我该怎么办”，而是把自己的经验、规则和流程，逐渐造进一个能反复使用的东西里。
 
 > 【主演示｜5～8 分钟】只演示一条完整链路：“本周计划 → 推荐名单 → 生成邀约话头 → 记录结果 → 面谈提醒”。千万别把每个按钮都点一遍，我们不是在做产品验收。
@@ -577,11 +596,8 @@ class: stage dark-stage demo-slide
 > 【数据待补】补充实际使用周数、每周节省时间、推荐名单数量和采用比例。客户姓名、电话、标签、对话全部用虚构或脱敏数据。
 >
 > 【备用素材】五个步骤各备一张截图，再准备一段不超过 90 秒的录屏。软件可以临场罢工，分享不能跟着罢工。
-
-以前我虽然有一点编程底子，但薄得比指甲盖还薄。严格一点说，那都不能叫底子，最多算电脑上落过一层编程的灰。
-
-现在因为有了 Vibe Coding——用自然语言描述需求，让 AI 协助写代码、改代码、查问题——我才敢动手，而且真做出了自己能用的东西。
 -->
+
 ---
 class: statement paper-stage
 ---
@@ -597,6 +613,7 @@ class: statement paper-stage
 
 <!--
 【讲者稿｜第 22 页｜最终定稿对应段落 79—82】
+
 以前我虽然有一点编程底子，但薄得比指甲盖还薄。严格一点说，那都不能叫底子，最多算电脑上落过一层编程的灰。
 
 现在因为有了 Vibe Coding——用自然语言描述需求，让 AI 协助写代码、改代码、查问题——我才敢动手，而且真做出了自己能用的东西。
@@ -605,6 +622,7 @@ class: statement paper-stage
 
 但它确实把“从一个念头到做出原型”的门槛，从一堵墙降成了一道坎。墙我翻不过去，坎我还迈不过去吗？
 -->
+
 ---
 class: stage dark-stage
 ---
@@ -613,15 +631,15 @@ class: stage dark-stage
 <h1 class="stage-title compact-title">不一定成熟，但都不是练习题</h1>
 
 <div class="asset-wall">
-  <div class="asset-wall-card"><img src="/assets/user-v1/a04-website.png" alt="个人网站"><b>A04 · 个人网站</b></div>
-  <div class="asset-wall-card live"><span class="live-badge">LIVE</span><b>A05 · 公众号工作流</b><small>现场打开 WorkBuddy</small></div>
-  <div class="asset-wall-card live"><span class="live-badge">LIVE</span><b>A06 · 港股研究 Skill</b><small>现场打开研究工具</small></div>
-  <div class="asset-wall-card"><img src="/assets/user-v1/a07-group-insurance.png" alt="团险话术生成器"><b>A07 · 团险话术</b></div>
-  <div class="asset-wall-card"><img src="/assets/user-v1/a08-allocation-tool.png" alt="资产配置工具"><b>A08 · 资产配置</b></div>
-  <div class="asset-wall-card"><img src="/assets/user-v1/a09-checkin.png" alt="每日打卡工具"><b>A09 · 每日打卡</b></div>
-  <div class="asset-wall-card"><img src="/assets/user-v1/a10-git-guide.png" alt="Git 学习手册"><b>A10 · Git 手册</b></div>
-  <div class="asset-wall-card"><img src="/assets/user-v1/a11-writing-system.png" alt="写作训练系统"><b>A11 · 写作训练</b></div>
-  <div class="asset-wall-card live"><span class="live-badge">LIVE</span><b>A12 · 与峰叔做的视频</b><small>现场打开素材文件夹</small></div>
+  <a class="asset-wall-card" href="https://leiflow.com" target="_blank" rel="noopener"><img src="/assets/user-v1/a04-website.png" alt="个人网站"><b>A04 · 个人网站</b></a>
+  <a class="asset-wall-card live" href="/assets/user-v1/a20-workbuddy-permission.png" target="_blank" rel="noopener"><span class="live-badge">LIVE</span><b>A05 · 公众号工作流</b><small>点击看 WorkBuddy 截图</small></a>
+  <a class="asset-wall-card live" href="/assets/user-v1/a17-stock-framework.png" target="_blank" rel="noopener"><span class="live-badge">LIVE</span><b>A06 · 港股研究 Skill</b><small>点击看研究框架</small></a>
+  <a class="asset-wall-card" href="/assets/user-v1/a07-group-insurance.png" target="_blank" rel="noopener"><img src="/assets/user-v1/a07-group-insurance.png" alt="团险话术生成器"><b>A07 · 团险话术</b></a>
+  <a class="asset-wall-card" href="/assets/user-v1/a08-allocation-tool.png" target="_blank" rel="noopener"><img src="/assets/user-v1/a08-allocation-tool.png" alt="资产配置工具"><b>A08 · 资产配置</b></a>
+  <a class="asset-wall-card" href="/assets/user-v1/a09-checkin.png" target="_blank" rel="noopener"><img src="/assets/user-v1/a09-checkin.png" alt="每日打卡工具"><b>A09 · 每日打卡</b></a>
+  <a class="asset-wall-card" href="/assets/user-v1/a10-git-guide.png" target="_blank" rel="noopener"><img src="/assets/user-v1/a10-git-guide.png" alt="Git 学习手册"><b>A10 · Git 手册</b></a>
+  <a class="asset-wall-card" href="/assets/user-v1/a11-writing-system.png" target="_blank" rel="noopener"><img src="/assets/user-v1/a11-writing-system.png" alt="写作训练系统"><b>A11 · 写作训练</b></a>
+  <a class="asset-wall-card live" href="/assets/visual-v3/gui-cli-showroom-workshop.png" target="_blank" rel="noopener"><span class="live-badge">LIVE</span><b>A12 · 与峰叔做的视频</b><small>点击看演示素材</small></a>
 </div>
 
 <!--
@@ -657,7 +675,7 @@ class: cinema visual-left
 <div class="photo-scrim"></div>
 
 <div class="visual-copy">
-  <div class="micro-label orange">Markdown</div>
+  <div class="micro-label orange concept-label"><span class="concept-index">05</span>Markdown</div>
   <h1>内容的集装箱</h1>
   <p v-click>外表不花哨，装得下、搬得走、<br>很多工具都认。</p>
 </div>
@@ -671,6 +689,21 @@ class: cinema visual-left
 `.md` 是 Markdown 文件的扩展名。它和 `.txt` 一样，可以用纯文本保存内容；不同的是，Markdown 约定了一套简单的标记语法，可以表示标题、列表、加粗、引用等结构。
 
 如果把 Word 比作一套装修好的房子，Markdown 更像一个标准集装箱：看起来没那么花哨，但结实、好搬、到哪里都容易打开。人能读，AI 也能读；今天用 Obsidian，明天换 VMark，内容还在那里，不容易被某个软件绑架。
+-->
+---
+class: stage dark-stage md-punch-slide
+transition: slide-up
+---
+
+<div class="md-punch-mark">.md</div>
+<div class="md-punch-caption">一个朴素、耐用、到处都能打开的内容载体</div>
+
+<!--
+【讲者稿｜第 25 页｜新增强调页】
+
+这里先停一下，记住三个字符：`.md`。
+
+它不是炫技符号，而是我们把内容保存成可读、可搬运、可持续改进资产的一个小入口。后面看到 Markdown 文件时，大家知道它就是这套工作方式的基础载体。
 -->
 ---
 class: stage light-stage
@@ -687,7 +720,8 @@ class: stage light-stage
 </div>
 
 <!--
-【讲者稿｜第 25 页｜最终定稿对应段落 94—100】
+【讲者稿｜第 26 页｜最终定稿对应段落 94—100】
+
 为什么 AI 时代要了解 Markdown？因为它：
 
 - 人能直接读；
@@ -706,6 +740,7 @@ class: stage light-stage
 
 你把规则、知识和要求摆在这张工作台上，人看得懂，AI 也接得住。仅仅知道这一点，就已经比只会在聊天框里打一行字，往前跨了一大步。
 -->
+
 ---
 class: stage dark-stage demo-slide
 ---
@@ -718,7 +753,7 @@ class: stage dark-stage demo-slide
 </div>
 
 <!--
-【讲者稿｜第 26 页｜最终定稿对应段落 101—106】
+【讲者稿｜第 27 页｜最终定稿对应段落 101—106】
 > 【现场演示｜4 分钟】打开当前课程文件夹：展示本稿 `.md` 源文件；切换 VMark 或 Obsidian；展示一个 `AGENTS.md` 或 `SKILL.md`；最后强调“它是载体，不是 AI 本身”。
 
 macOS 显示隐藏文件的快捷键是 `Command + Shift + .`。Windows 可以在文件资源管理器的“查看—显示”中勾选“隐藏的项目”。有些 AI 工具会建立 `.codex`、`.claude` 等配置目录，但不同工具结构不同，也不是所有对话都会自动在本地生成文件。
@@ -743,7 +778,7 @@ class: cinema gui-cli-visual
 <div class="photo-scrim top-bottom"></div>
 
 <div class="visual-title">
-  <div class="micro-label orange">GUI × CLI</div>
+  <div class="micro-label orange concept-label"><span class="concept-index">06</span>GUI × CLI</div>
   <h1>一个像前厅，一个像后厨</h1>
 </div>
 
@@ -757,7 +792,7 @@ class: cinema gui-cli-visual
 <div v-click class="visual-bottom-line">能聊天的是网友，能一起干活的才是搭档。</div>
 
 <!--
-【讲者稿｜第 27 页｜最终定稿对应段落 107—115】
+【讲者稿｜第 28 页｜最终定稿对应段落 107—115】
 ### 6. CLI：GUI 是展厅，CLI 是车间
 
 第六个概念是 CLI，也就是命令行界面。Mac 上常见的是终端，Windows 上常见的是 PowerShell 或命令提示符。
@@ -798,7 +833,8 @@ class: stage dark-stage demo-slide
 </div>
 
 <!--
-【讲者稿｜第 28 页｜最终定稿对应段落 112—116】
+【讲者稿｜第 29 页｜最终定稿对应段落 112—116】
+
 在命令行环境里：
 
 - 文件可以被程序读取；
@@ -814,7 +850,12 @@ class: stage dark-stage demo-slide
 > 【现场演示｜3 分钟】在终端中让 AI 列出课程文件、读取一个 Markdown 文件、给出摘要。只演示三步，不现场安装，不秀复杂命令。
 >
 > 【备用截图】提前放大字体，隐藏用户名、敏感路径和任何密钥。终端一旦变成蚂蚁字，台下会集体假装看懂。
+
+好，这是第二层，行动层。我们讲了：生产制造、.md和 CLI。这三个概念讲完，大家是不是有了新的认识？我也给大家展示了我的成果，就是想告诉大家得真干。然后，要想真干好，就一定要重点掌握.md 和 CLI。我知道大家一定会有很多疑问，后面我们再交流，重点是大家先记住这三个概念，然后，先行动起来。
+
+我们接着讲第三层，资产层的最后两个概念。
 -->
+
 ---
 class: section-stage dark-stage
 transition: slide-up
@@ -826,7 +867,7 @@ transition: slide-up
 <div class="section-tagline">验证、保存、复用，才开始变成资产。</div>
 
 <!--
-【讲者稿｜第 29 页｜最终定稿对应段落 117—118】
+【讲者稿｜第 30 页｜最终定稿对应段落 117—118】
 ## 四、资产层：产物要留下，错误要拦下
 
 ### 7. Grill：全信 AI，还不如不用 AI
@@ -845,7 +886,7 @@ class: statement dark-stage center-stage
 <div v-click class="stage-note">它能起草，但不能替你承担发布责任。</div>
 
 <!--
-【讲者稿｜第 30 页｜最终定稿对应段落 119—123】
+【讲者稿｜第 31 页｜最终定稿对应段落 119—123】
 第七个概念，Grill。
 
 娜姐，这个英文词是什么意思？这里可以理解为“追问、盘问、拷问”。
@@ -855,6 +896,22 @@ class: statement dark-stage center-stage
 > **如果你全信 AI，那还不如不用 AI。**
 
 这句话严格讲当然有点猛，但我就是希望大家记住。因为 AI 最危险的时候，不是它老老实实说“我不知道”，而是它不知道，却说得比知道还像知道。
+-->
+---
+class: stage dark-stage grill-quote-slide
+transition: slide-up
+---
+
+<div class="micro-label orange">Grill yourself</div>
+<div class="grill-quote-en">Grill yourself to improve,<br><span>not to tear yourself down.</span></div>
+<div class="grill-quote-zh">检查并挑战自己，是为了改进，<br>不是为了把自己全盘推翻。</div>
+
+<!--
+【讲者稿｜第 32 页｜新增双语强调页】
+
+这里先记住一句很实用的话：Grill yourself to improve, not to tear yourself down。
+
+检查和挑战自己，是为了让结果更好，不是为了把自己吓退。先问一遍、查一遍，再由人做最后决定。
 -->
 ---
 class: stage light-stage mistake-slide
@@ -869,7 +926,8 @@ class: stage light-stage mistake-slide
 </div>
 
 <!--
-【讲者稿｜第 31 页｜最终定稿对应段落 124—135】
+【讲者稿｜第 33 页｜最终定稿对应段落 124—135】
+
 它可能没有故意骗你，但你照样可能被骗。它不会脸红，也不会在引用一个不存在的数据时突然咳嗽两声提醒你。
 
 所以，拿到一个重要结果以后，可以顺手再发一句：
@@ -895,6 +953,7 @@ class: stage light-stage mistake-slide
 
 > **活可以交给 AI，责任不能外包。**
 -->
+
 ---
 class: cinema visual-left grill-visual
 ---
@@ -903,7 +962,7 @@ class: cinema visual-left grill-visual
 <div class="photo-scrim"></div>
 
 <div class="visual-copy">
-  <div class="micro-label orange">Grill · 盘问与自检</div>
+  <div class="micro-label orange concept-label"><span class="concept-index">07</span>Grill · 盘问与自检</div>
   <h1>活可以交给机器<br>责任不能外包</h1>
   <div v-click class="grill-prompt">
     哪些地方可能错了？<br>
@@ -914,7 +973,8 @@ class: cinema visual-left grill-visual
 </div>
 
 <!--
-【讲者稿｜第 32 页｜最终定稿对应段落 125—138】
+【讲者稿｜第 34 页｜最终定稿对应段落 125—138】
+
 所以，拿到一个重要结果以后，可以顺手再发一句：
 
 > **Grill yourself to improve, not to tear yourself down.**<br>
@@ -946,6 +1006,7 @@ class: cinema visual-left grill-visual
 
 等用熟了，再去做交叉验证、找一手来源、让两个模型互相挑刺。先学会刹车，再研究赛车空气动力学。别因为安全方法太复杂，最后连车都不上。
 -->
+
 ---
 class: stage dark-stage demo-slide
 ---
@@ -958,11 +1019,12 @@ class: stage dark-stage demo-slide
 </div>
 
 <!--
-【讲者稿｜第 33 页｜最终定稿对应段落 139—139】
+【讲者稿｜第 35 页｜最终定稿对应段落 139—139】
 > 【现场演示｜3 分钟】准备一段故意混入错误数字的保险科普文案。让 AI 初答，再输入 Grill 指令。最后强调：“找出来了，说明自检有用；没找出来，正好证明不能只靠自检。”
 >
 > 【备用素材】保存一次成功找错和一次没有找错的结果。无论现场是哪种结果，都有话讲。
 -->
+
 ---
 class: stage light-stage
 ---
@@ -977,7 +1039,8 @@ class: stage light-stage
 </div>
 
 <!--
-【讲者稿｜第 34 页｜最终定稿对应段落 136—138】
+【讲者稿｜第 36 页｜最终定稿对应段落 136—138】
+
 大家先记一个最简单的三步法：
 
 1. **问一遍**：让 AI 完成初稿；
@@ -986,6 +1049,7 @@ class: stage light-stage
 
 等用熟了，再去做交叉验证、找一手来源、让两个模型互相挑刺。先学会刹车，再研究赛车空气动力学。别因为安全方法太复杂，最后连车都不上。
 -->
+
 ---
 class: stage dark-stage
 ---
@@ -1001,34 +1065,7 @@ class: stage dark-stage
 </div>
 
 <!--
-【讲者稿｜第 35 页｜最终定稿对应段落 142—145】
-我们写稿子、做方案，经常出现这样的文件名：
-
-> 最终版<br>
-> 最终修改版<br>
-> 最终修改版 2<br>
-> 这次真的是最终版<br>
-> 打死也不改最终版
-
-最后谁也不知道哪个才是最终版。更惨的是，昨天删掉的那句话今天突然觉得特别好，却已经找不回来了。
-
-Git 就像给项目装了一台时光机。它记录每一次重要修改，让我们知道改了什么，需要时还能回到过去。
--->
----
-class: cinema visual-left
----
-
-<div class="photo-bg" style="background-image:url('/assets/visual-v2/git-time-machine.png')"></div>
-<div class="photo-scrim"></div>
-
-<div class="visual-copy">
-  <div class="micro-label orange">Git / GitHub</div>
-  <h1>给数字资产<br>装一台时光机</h1>
-  <p v-click>知道改了什么。<br>也知道怎样回到过去。</p>
-</div>
-
-<!--
-【讲者稿｜第 36 页｜最终定稿对应段落 140—149】
+【讲者稿｜第 37 页｜最终定稿对应段落 142—145】
 ### 8. Git / GitHub：给作品装一台时光机
 
 第八个概念是 Git 和 GitHub。听起来更技术，但今天只讲它们能救什么命，不讲命令。
@@ -1044,6 +1081,25 @@ class: cinema visual-left
 最后谁也不知道哪个才是最终版。更惨的是，昨天删掉的那句话今天突然觉得特别好，却已经找不回来了。
 
 Git 就像给项目装了一台时光机。它记录每一次重要修改，让我们知道改了什么，需要时还能回到过去。
+-->
+
+---
+class: cinema visual-left
+---
+
+<div class="photo-bg" style="background-image:url('/assets/visual-v2/git-time-machine.png')"></div>
+<div class="photo-scrim"></div>
+
+<div class="visual-copy">
+  <div class="micro-label orange concept-label"><span class="concept-index">08</span>Git / GitHub</div>
+  <h1>给数字资产<br>装一台时光机</h1>
+  <p v-click>知道改了什么。<br>也知道怎样回到过去。</p>
+</div>
+
+<!--
+【讲者稿｜第 38 页｜最终定稿对应段落 140—149】
+
+Git 就像给项目装了一台时光机。它记录每一次重要修改，让我们知道改了什么，需要时还能回到过去。
 
 我自己的网站和重要文稿都在使用 Git。事实上，这份课稿的原稿、一稿、二稿和我们的审稿对话，现在也已经进入 Git，并同步到了 GitHub 私有仓库。刚才那个“最终版 2”的笑话，至少以后不用再发生在这门课上。
 
@@ -1053,6 +1109,7 @@ GitHub 是一个托管 Git 仓库并提供协作功能的平台。上面有大�
 
 这是我的网站仓库：[github.com/leiflowAI/leiflow-website](https://github.com/leiflowAI/leiflow-website)。
 -->
+
 ---
 class: stage dark-stage demo-slide
 ---
@@ -1071,7 +1128,7 @@ class: stage dark-stage demo-slide
 </div>
 
 <!--
-【讲者稿｜第 37 页｜最终定稿对应段落 150—150】
+【讲者稿｜第 39 页｜最终定稿对应段落 150—150】
 > 【现场演示｜2 分钟】打开课程文稿私有仓库或网站仓库，展示项目文件、提交历史和版本对比。重点讲“后悔药”，不教学 Git 命令。
 -->
 ---
@@ -1094,13 +1151,15 @@ class: stage light-stage cycle-slide
 </div>
 
 <!--
-【讲者稿｜第 38 页｜最终定稿对应段落 151—153】
+【讲者稿｜第 40 页｜最终定稿对应段落 151—153】
+
 讲完八个概念，真正的主线只有一条：
 
 > **用概念打开认知边界，用 AI 做出真实产物，再把产物验证、保存并不断改进。**
 
 > 【PPT 总结图】概念 → 边界 → 生产 → 验证 → 保存 → 复用。做成循环，不要做成一条死路。
 -->
+
 ---
 class: stage dark-stage
 ---
@@ -1119,7 +1178,7 @@ class: stage dark-stage
 -->
 
 <!--
-【讲者稿｜第 39 页｜最终定稿对应段落 154—174】
+【讲者稿｜第 41 页｜最终定稿对应段落 154—174】
 ## 五、几个小伙伴真正关心的例子
 
 ### 1. 炒股：AI 可以帮你研究，但不会替你赔钱
@@ -1174,7 +1233,7 @@ class: statement paper-stage center-stage
 <div v-click class="writing-line">用 AI 练写作，是给自己请了一个<br><b>不嫌你烦、随时在岗的陪练。</b></div>
 
 <!--
-【讲者稿｜第 40 页｜最终定稿对应段落 175—179】
+【讲者稿｜第 42 页｜最终定稿对应段落 175—179】
 ### 5. 写小说、出书：我想造的不是一本书，是一条生产线
 
 这是我的下一个打算。我想看看能不能圆自己的写书梦。
@@ -1199,7 +1258,7 @@ class: stage light-stage
 </div>
 
 <!--
-【讲者稿｜第 41 页｜最终定稿对应段落 180—185】
+【讲者稿｜第 43 页｜最终定稿对应段落 180—185】
 ## 六、开始使用 AI 的几个地基条件
 
 ### 1. AI 的选择
@@ -1231,7 +1290,7 @@ class: stage dark-stage
 <div class="stage-note">梯子保留口头分享；公务、涉密、客户敏感环境不要乱用。</div>
 
 <!--
-【讲者稿｜第 42 页｜最终定稿对应段落 186—189】
+【讲者稿｜第 44 页｜最终定稿对应段落 186—189】
 使用海外工具通常会遇到几个现实门槛：
 
 - **网络条件**：咱们团队内部都知道“梯子”是什么，我也不假装这道门槛不存在。但今天不把课变成搭建教程。具体使用要根据身份、单位规定和实际用途自行判断；公务、涉密、公司敏感环境不要使用未经批准的工具或线路。
@@ -1258,7 +1317,7 @@ class: cinema visual-left
 </div>
 
 <!--
-【讲者稿｜第 43 页｜最终定稿对应段落 192—196】
+【讲者稿｜第 45 页｜最终定稿对应段落 192—196】
 不过给权限时，记住一个原则：**只给完成任务所必需的最小权限。**
 
 把 AI 当成一个刚来的实习生。让它整理会议室资料，就给会议室钥匙；别图省事，把家门、保险柜和地下车库钥匙一起塞给它，再说“我相信科技”。
@@ -1286,7 +1345,7 @@ class: stage dark-stage
 </div>
 
 <!--
-【讲者稿｜第 44 页｜最终定稿对应段落 197—209】
+【讲者稿｜第 46 页｜最终定稿对应段落 197—209】
 ### 2. 配套工具
 
 #### Typeless：嘴比手快，就让嘴先干
@@ -1328,7 +1387,7 @@ transition: slide-up
 </div>
 
 <!--
-【讲者稿｜第 45 页｜最终定稿对应段落 210—216】
+【讲者稿｜第 47 页｜最终定稿对应段落 210—216】
 ## 七、最后别只记八个词，记住一套动作
 
 讲到这里，我们回到开头。
@@ -1361,7 +1420,7 @@ class: stage light-stage
 <div class="stage-note ink">第一组负责迈出第一步；第二组负责走得更远、更稳。</div>
 
 <!--
-【讲者稿｜第 46 页｜最终定稿对应段落 217—219】
+【讲者稿｜第 48 页｜最终定稿对应段落 217—219】
 光踹下水还不够，还得教大家别呛着。再加一组更稳的：
 
 > **凡是重复任务，先想能否交给 AI；**<br>
@@ -1391,7 +1450,7 @@ class: cinema flywheel-visual
 <div v-click class="visual-bottom-line">先用起来；验证结果；持续修改；保存下来；下次再用。</div>
 
 <!--
-【讲者稿｜第 47 页｜最终定稿对应段落 220—222】
+【讲者稿｜第 49 页｜最终定稿对应段落 220—222】
 最后送大家一个五字诀：
 
 > **用—验—改—存—复用。**
@@ -1413,7 +1472,7 @@ class: stage light-stage action-slide
 <div v-click class="action-fill">七天后，我要拿出：________________________</div>
 
 <!--
-【讲者稿｜第 48 页｜最终定稿对应段落 223—223】
+【讲者稿｜第 50 页｜最终定稿对应段落 223—223】
 > 【PPT 行动页】请每个人写下：“未来七天，我要用 AI 做出的一个真实产物。”不要写“学习 AI”，要写一个能看见、能拿走、下周能展示的东西。
 -->
 ---
@@ -1425,7 +1484,7 @@ class: stage dark-stage center-stage
 <div v-click class="qa-subtitle">我们不讨论“AI 将来会怎样”<br>我们现场看它今天能不能干活。</div>
 
 <!--
-【讲者稿｜第 49 页｜最终定稿对应段落 224—230】
+【讲者稿｜第 51 页｜最终定稿对应段落 224—230】
 ## 八、答疑与现场共创
 
 最后，我们来解答大家的问题。也可以现场挑一个真实但不涉及客户隐私的小问题，一起看看怎样从一句模糊需求，逐渐做出一个能用的产物。
@@ -1438,8 +1497,9 @@ class: stage dark-stage center-stage
 
 工具可以换，模型可以换，真正留在我们身上的，应该是越来越强的判断力、创造力和行动力。
 
-多多赚钱，事业长虹。谢谢大家！
+多多赚钱，业绩长虹。谢谢大家！
 -->
+
 ---
 class: cinema visual-left closing-slide
 ---
@@ -1455,7 +1515,7 @@ class: cinema visual-left closing-slide
 </div>
 
 <!--
-【讲者稿｜第 50 页｜最终定稿对应段落 232—235】
+【讲者稿｜第 52 页｜最终定稿对应段落 232—235】
 ## 分享者备忘：正式分享前需要补齐的素材
 
 - [ ] LeiFlow 助手完整链路的脱敏演示数据；
